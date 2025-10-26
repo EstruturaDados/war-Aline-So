@@ -1,4 +1,7 @@
-// ============================================================================
+//
+#include <stdio.h>
+#include <string.h>
+
 //         PROJETO WAR ESTRUTURADO - DESAFIO DE CÓDIGO
 // ============================================================================
 //        
@@ -31,7 +34,79 @@
 
 // --- Função Principal (main) ---
 // Função principal que orquestra o fluxo do jogo, chamando as outras funções em ordem.
+
+
 int main() {
+    
+    int numerodetropras [10];
+    char nome [30];
+    char cor [10];
+    
+    printf("*** Bem vindo ao jogo***\n");
+    printf("Cadastre as tropas\n");
+
+
+
+    printf("Numero de tropas 1\n");
+    scanf("%d, &numerodetropas\n");
+    printf("Nome do pais\n");
+    scanf("%d, &nome \n");
+    printf("Cor das Tropas\n");
+    scanf("%s, &cor \n");
+    
+
+    ///////////////////////////
+
+
+    printf("numero de tropas 2\n");
+    scanf("%d, &numerodetropas \n");
+    printf("Nome do pais\n");
+    scanf("%s, &nome\n");
+    printf("Cor das tropas\n");
+    scanf("%s, &cor \n");
+
+    //////////////////////////////
+
+    
+    printf("numero de tropas 3\n");
+    scanf("%d, &numerodetropas\n");
+    printf("Nome do pais\n");
+    scanf("%s, &nome\n");
+    printf("Cor das tropas\n");
+    scanf("%s, &cor \n");
+    
+
+    ////////////////////////////
+
+    
+    printf("numero de tropas 4\n");
+    scanf("%d, &numerodetropas \n");
+    printf("Nome do pais\n");
+    scanf("%s, &nome \n");
+    printf("Cor das tropas\n");
+    scanf("%s, &cor \n");
+    
+     
+    ////////////////////////////
+
+    
+    printf("numero de tropas 5\n");
+    scanf("%d, &numerodetropas\n");
+    printf("Nome do pais,\n");
+    scanf("%s, &nome \n");
+    printf("Cor das tropas\n");
+    scanf("%s, &cor \n");
+    
+
+
+
+
+
+
+    
+    
+    
+    
     // 1. Configuração Inicial (Setup):
     // - Define o locale para português.
     // - Inicializa a semente para geração de números aleatórios com base no tempo atual.
